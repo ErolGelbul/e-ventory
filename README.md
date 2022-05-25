@@ -62,8 +62,6 @@ and supply information to our customers and management services.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br></br>
-
 <!-- DESIGN -->
 ## 1. Designing the Database
 
@@ -272,8 +270,6 @@ $ .\venv\Scripts\activate
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br></br>
-
 ## 2. Building the Tables and Fields in Django
 
 After initialising a Django project and creating an app called "inventory", we
@@ -393,7 +389,6 @@ class Image(models.Model):
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br></br>
 
 ## 3. Manual Data Insertion w/ Admin Site
 
@@ -404,7 +399,6 @@ new data to the database. Check admin.py inside of the "inventory" app.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br></br>
 
 ## 4. Automatic Data Insertion w/ Django Fixtures
 
@@ -421,7 +415,6 @@ $ python manage.py load-fixtures
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<br></br>
 
 ## 5. Querying Data w/ Django's ORM
 
@@ -663,12 +656,6 @@ need_restock_on = [(product.product.name,product.inventory.units) for product in
 ```bash
 [('girl primotoo open toe synthetiflip flop sandal', 2), ('axny anise round toe synthetianke boot', 3), ('axny graham round toe synthetimid caf boot', 5), ('axny tuner round toe synthetibootie', 5), ('aerosoes rock soid natura fabric', 1)]
 ```
-
-
-
-
-
-
 
 
 <!-- CONTACT -->
