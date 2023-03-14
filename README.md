@@ -632,7 +632,7 @@ the ones that do not meet the requirement. Instead, all of the statement gets
 converted into an SQL query which is more compact and not memory intensive.
 
 ```python
-Inventory.objects.filter(inventory__last_checked__range=('2021-09-01','2021-09-8')).exclude(inventory__units__gt=10)
+product = Inventory.objects.filter(inventory__last_checked__range=('2021-09-01','2021-09-8')).exclude(inventory__units__gt=10)
 ```
 
 > OUTPUT:
